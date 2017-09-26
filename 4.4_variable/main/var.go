@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-// 因式分解法声明变量
+// 提取公因式法声明变量
 var (
 	a   int
 	b   bool
@@ -33,4 +33,6 @@ func main() {
 	fmt.Println(a, b, str)
 	fmt.Println(d, e, city)
 	fmt.Println(HOME, USER, GOROOT)
+
+
 }
